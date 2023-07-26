@@ -1,0 +1,16 @@
+08-Sep-21 8:19:26 AM  : Error Keeping list no TF21090801:System.IndexOutOfRangeException: There is no row at position -1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 549
+08-Sep-21 10:32:55 AM  : Error Keeping list no TF21090801:System.IO.FileNotFoundException: The file 'D:\GLS\inv_tranfer\test.png' does not exist.
+   at PdfSharp.Drawing.XImage..ctor(String path)
+   at PdfSharp.Drawing.XImage.FromFile(String path)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 140
+08-Sep-21 11:30:06 AM  : Error Keeping list no TF21082601:System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 499
+08-Sep-21 1:04:48 PM  : Error Keeping list no TF21090801:System.ArgumentException: Column 'SUM(IMFR_UD_QTY*IMFR_UD_PRICE)' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 518

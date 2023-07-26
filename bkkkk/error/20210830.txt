@@ -1,0 +1,78 @@
+30-Aug-21 9:12:53 AM  : Error Keeping list no TF21082601:System.InvalidCastException: Conversion from string "dd + " to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 276
+30-Aug-21 9:33:11 AM  : Error Keeping list no TF21082601:System.MissingMemberException: Public member 'Count' on type 'Decimal' not found.
+   at Microsoft.VisualBasic.CompilerServices.Symbols.Container.GetMembers(String& MemberName, Boolean ReportErrors)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.ObjectLateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 407
+30-Aug-21 10:02:27 AM  : Error Keeping list no TF21082601:Oracle.DataAccess.Client.OracleException ORA-00904: "IMFR_UD_INV_TRAN": ตัวระบุไม่ถูกต้อง    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 71
+30-Aug-21 10:03:45 AM  : Error Keeping list no TF21082601:Oracle.DataAccess.Client.OracleException ORA-00904: "IMFR_UD_INV_TRAN": ตัวระบุไม่ถูกต้อง    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 69
+30-Aug-21 10:06:37 AM  : Error Keeping list no TF21082601:Oracle.DataAccess.Client.OracleException ORA-00904: "IMFR_UD_INV_TRAN": ตัวระบุไม่ถูกต้อง    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 69
+30-Aug-21 10:07:35 AM  : Error Keeping list no TF21082601:System.IndexOutOfRangeException: There is no row at position 2.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 414
+30-Aug-21 10:11:26 AM  : Error Keeping list no TF21082601:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 414
+30-Aug-21 10:17:00 AM  : Error Keeping list no TF21082601:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 414
+30-Aug-21 10:18:13 AM  : Error Keeping list no TF21082601:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 414
+30-Aug-21 10:19:55 AM  : Error Keeping list no TF21082601:System.IndexOutOfRangeException: There is no row at position 1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 414
+30-Aug-21 2:12:45 PM  : Error Keeping list no TF21082601:System.ArgumentException: Column 'IMFR_UD_TARIFF' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 405
+30-Aug-21 3:22:46 PM  : Error Keeping list no TF21082601:System.IndexOutOfRangeException: There is no row at position -1.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 401
+30-Aug-21 7:07:02 PM  : Error Keeping list no TF21082601:System.InvalidCastException: Conversion from string "POINT" to type 'Double' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(String Value)
+   at inv_tranfer.NumeriCon.Finpoint(Decimal Number) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 755
+   at inv_tranfer.NumeriCon.ConvertNum(Int64 Input) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 634
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 511
+30-Aug-21 7:36:36 PM  : Error Keeping list no TF21082601:System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at System.String.Substring(Int32 startIndex)
+   at inv_tranfer.NumeriCon.Finpoint(Double Number) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 751
+   at inv_tranfer.NumeriCon.ConvertNum(Double Input) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 626
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 511
+30-Aug-21 7:46:10 PM  : Error Keeping list no TF21082601:System.ArgumentOutOfRangeException: StartIndex cannot be less than zero.
+Parameter name: startIndex
+   at System.String.Substring(Int32 startIndex, Int32 length)
+   at System.String.Substring(Int32 startIndex)
+   at inv_tranfer.NumeriCon.Finpoint(Double Number)
+   at inv_tranfer.NumeriCon.ConvertNum(Double Input)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran)

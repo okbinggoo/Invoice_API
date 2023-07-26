@@ -1,0 +1,16 @@
+25-Jul-23 4:57:47 PM  : Error Invoice No TF230725001:System.InvalidOperationException: Connection must be open for this operation
+   at Oracle.DataAccess.Client.OracleCommand.CheckConStatus()
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 226
+25-Jul-23 5:03:12 PM  : Error Invoice No TF230725001:System.InvalidOperationException: Connection must be open for this operation
+   at Oracle.DataAccess.Client.OracleCommand.CheckConStatus()
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 226
+25-Jul-23 5:09:48 PM  : Error Invoice No TF230725001:System.InvalidCastException: Conversion from string "False BANGKOK, THAILAND" to type 'Long' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDecimal(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToLong(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToLong(String Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 502

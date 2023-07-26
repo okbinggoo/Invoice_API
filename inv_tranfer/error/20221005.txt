@@ -1,0 +1,8 @@
+05-Oct-22 9:52:01 AM  : Error Invoice No TF221005003:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 711
+05-Oct-22 9:58:56 AM  : Error Invoice No TF221005003:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 711

@@ -1,0 +1,70 @@
+13-Sep-21 4:19:28 PM  : Error Keeping list no TF21091301:System.ArgumentException: Column 'sum(Imfr_Ud_Price)' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 533
+13-Sep-21 6:03:22 PM  : Error Keeping list no TF21091301:System.ArgumentException: Column 'SUM(IMFR_UD_QTY*IMFR_UD_PRICE)' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 519
+13-Sep-21 7:04:10 PM  : Error Keeping list no TF21090801:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 526
+13-Sep-21 10:33:16 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 541
+13-Sep-21 10:37:31 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 541
+13-Sep-21 10:40:13 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 542
+13-Sep-21 10:43:37 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 542
+13-Sep-21 10:44:55 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 542
+13-Sep-21 10:49:14 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 542
+13-Sep-21 10:50:19 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 587
+13-Sep-21 10:51:37 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 587
+13-Sep-21 10:55:16 PM  : Error Keeping list no TF21090701:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 542
+13-Sep-21 11:05:12 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 541
+13-Sep-21 11:08:25 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 541
+13-Sep-21 11:12:28 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 541
+13-Sep-21 11:17:29 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 541
+13-Sep-21 11:33:01 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Operator '<>' is not defined for type 'DBNull' and 'Nothing'.
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 530
+13-Sep-21 11:39:52 PM  : Error Keeping list no TF21091302:System.InvalidCastException: Operator '<>' is not defined for type 'DBNull' and 'Nothing'.
+   at Microsoft.VisualBasic.CompilerServices.Operators.CompareObjectNotEqual(Object Left, Object Right, Boolean TextCompare)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 588

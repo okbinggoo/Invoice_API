@@ -1,0 +1,4 @@
+17-Jan-22 1:00:58 PM  : Error Invoice No TF220110002:System.ArgumentException: Column 'KB10990' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 424

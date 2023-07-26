@@ -1,0 +1,53 @@
+03-Jun-22 3:19:39 PM  : Error Invoice No TF220520001:System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 953
+03-Jun-22 3:21:09 PM  : Error Invoice No TF220520001:System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 953
+03-Jun-22 3:24:34 PM  : Error Invoice No TF220516003:System.UnauthorizedAccessException: Access to the path '\\163.50.57.89\nas$\Restore_Drive_I\Archive_SVR\DMS\MTB00\MTB20\TF\TF220516003_MTL_IV.pdf' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PdfSharp.Pdf.PdfDocument.Save(String path)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 973
+03-Jun-22 3:36:42 PM  : Error Invoice No TF220516003:Oracle.DataAccess.Client.OracleException ORA-12514: TNS: ลิสเทนเนอร์ไม่รู้จักเซอร์วิสที่ขอใน Descriptor ของการเชื่อมต่อ    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 66
+03-Jun-22 3:37:54 PM  : Error Invoice No TF220516003:System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 953
+03-Jun-22 3:44:38 PM  : Error Invoice No TF220516003:System.UnauthorizedAccessException: Access to the path '\\163.50.57.89\nas$\Restore_Drive_I\Archive_SVR\DMS\MTB00\MTB20\TF\TF220516003_MTL_IV.pdf' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PdfSharp.Pdf.PdfDocument.Save(String path)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 973
+03-Jun-22 4:40:16 PM  : Error Invoice No TF220516003:System.UnauthorizedAccessException: Access to the path '\\163.50.57.89\nas$\Restore_Drive_I\Archive_SVR\DMS\MTB00\MTB20\TF\TF220516003_MTL_IV.pdf' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PdfSharp.Pdf.PdfDocument.Save(String path)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 973
+03-Jun-22 4:43:22 PM  : Error Invoice No TF220516003:System.UnauthorizedAccessException: Access to the path '\\163.50.57.89\nas$\Restore_Drive_I\Archive_SVR\DMS\MTB00\MTB20\TF\TF220516003_MTL_IV.pdf' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PdfSharp.Pdf.PdfDocument.Save(String path)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 973
+03-Jun-22 4:43:45 PM  : Error Invoice No TF220516003:System.UnauthorizedAccessException: Access to the path '\\163.50.57.89\nas$\Restore_Drive_I\Archive_SVR\DMS\MTB00\MTB20\TF\TF220516003_MTL_IV.pdf' is denied.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PdfSharp.Pdf.PdfDocument.Save(String path)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 973
+03-Jun-22 4:46:03 PM  : Error Invoice No TF220516003:System.IO.IOException: The network name cannot be found.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PdfSharp.Pdf.PdfDocument.Save(String path)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 973

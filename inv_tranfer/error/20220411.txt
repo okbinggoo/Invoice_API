@@ -1,0 +1,12 @@
+11-Apr-22 11:32:01 AM  : Error Invoice No TF220406004:System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 935
+11-Apr-22 11:37:11 AM  : Error Invoice No TF220406002:System.InvalidCastException: Conversion from type 'DBNull' to type 'Double' is not valid.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 664
+11-Apr-22 11:46:45 AM  : Error Invoice No TF220406002 :System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 935

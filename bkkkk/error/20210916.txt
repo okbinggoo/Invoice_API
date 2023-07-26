@@ -1,0 +1,30 @@
+16-Sep-21 8:13:09 AM  : Error Keeping list no TF21091502:System.InvalidCastException: Conversion from string "N6" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 466
+16-Sep-21 8:27:36 AM  : Error Keeping list no TF21091502:System.InvalidCastException: Conversion from string "N2" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 469
+16-Sep-21 8:28:39 AM  : Error Keeping list no TF21091502:System.InvalidCastException: Conversion from string "N2" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 469
+16-Sep-21 8:29:37 AM  : Error Keeping list no TF21091502:System.InvalidCastException: Conversion from string "N2" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 469
+16-Sep-21 8:49:29 AM  : Error Keeping list no TF21091502:System.InvalidCastException: Conversion from string "N2" to type 'Integer' is not valid. ---> System.FormatException: Input string was not in a correct format.
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ParseDouble(String Value, NumberFormatInfo NumberFormat)
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualBasic.CompilerServices.Conversions.ToInteger(String Value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 478

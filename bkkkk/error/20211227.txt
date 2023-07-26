@@ -1,0 +1,8 @@
+27-Dec-21 11:29:17 AM  : Error Invoice No TF21121445:System.ArgumentException: Column 'truck' does not belong to table IMFR_UT_MTLLSL001.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 740
+27-Dec-21 11:51:09 AM  : Error Invoice No TF211216018,TF211216016:System.IndexOutOfRangeException: There is no row at position 0.
+   at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 740

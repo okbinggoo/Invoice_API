@@ -1,0 +1,34 @@
+27-Aug-21 5:32:28 PM  : Error Keeping list no TF21082601:System.InvalidOperationException: Operation is not valid due to the current state of the object.
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 46
+27-Aug-21 5:33:43 PM  : Error Keeping list no TF21082601:System.InvalidOperationException: Operation is not valid due to the current state of the object.
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 46
+27-Aug-21 5:38:28 PM  : Error Keeping list no TF21082601:Oracle.DataAccess.Client.OracleException ORA-00923: ไม่พบคำหลัก FROM ในที่ที่ต้องการ    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 47
+27-Aug-21 5:40:06 PM  : Error Keeping list no TF21082601:Oracle.DataAccess.Client.OracleException ORA-00923: ไม่พบคำหลัก FROM ในที่ที่ต้องการ    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 47
+27-Aug-21 5:41:11 PM  : Error Keeping list no TF21082601:Oracle.DataAccess.Client.OracleException ORA-00923: ไม่พบคำหลัก FROM ในที่ที่ต้องการ    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader(Boolean requery, Boolean fillRequest, CommandBehavior behavior)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteReader()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 47
+27-Aug-21 5:42:20 PM  : Error Keeping list no TF21082601:System.InvalidOperationException: ConnectionString property cannot be set when the connection is open
+   at Oracle.DataAccess.Client.OracleConnection.set_ConnectionString(String value)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 75
+27-Aug-21 5:44:38 PM  : Error Keeping list no TF21082601:System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'OracleConnection'.
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 79
+27-Aug-21 6:15:43 PM  : Error Keeping list no TF21082601:System.ArgumentException: Column 'IMFR_SD_NO' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 382

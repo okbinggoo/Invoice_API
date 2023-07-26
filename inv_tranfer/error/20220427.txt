@@ -1,0 +1,8 @@
+27-Apr-22 11:43:34 AM  : Error Invoice No HUB22042607:System.ArgumentException: Column 'IMFR_UD_TARIFF' does not belong to table IMFR_UT_MTLGLS0002.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 643
+27-Apr-22 11:51:50 AM  : Error Invoice No HUB22042607:System.ArgumentException: Column 'Sum(Imfr_Ud_Qty)' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 673

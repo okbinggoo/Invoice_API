@@ -1,0 +1,10 @@
+07-Jun-22 6:56:02 PM  : Error Invoice No TF220607004:System.ArgumentException: Column 'Imfr_Ud_Price' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 707
+07-Jun-22 6:58:33 PM  : Error Invoice No TF220607004:System.IO.IOException: The process cannot access the file '\\163.50.57.20\ftp$\Shipping\TF\20220607\62-8121\TF220607004_MTL_IV.pdf' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PdfSharp.Pdf.PdfDocument.Save(String path)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 973

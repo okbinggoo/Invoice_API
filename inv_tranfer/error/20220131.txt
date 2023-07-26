@@ -1,0 +1,8 @@
+31-Jan-22 12:59:35 PM  : Error Invoice No TF220127001:Oracle.DataAccess.Client.OracleException ORA-1017: ชื่อผู้ใช้/รหัสผ่านไม่ถูกต้อง  ล็อกออนไม่ได้    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 137
+31-Jan-22 1:24:01 PM  : Error Invoice No TF220127001:Oracle.DataAccess.Client.OracleException ORA-1017: ชื่อผู้ใช้/รหัสผ่านไม่ถูกต้อง  ล็อกออนไม่ได้    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 137

@@ -1,0 +1,4 @@
+04-Oct-22 5:03:02 PM  : Error Invoice No HUB22100407:System.ArgumentException: Column 'data_return' does not belong to table .
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at inv_tranfer.WebService1.MainProcess(String inv_tran) in D:\GLS\uu\inv_tranfer\inv_tranfer\WebService1.asmx.vb:line 290
